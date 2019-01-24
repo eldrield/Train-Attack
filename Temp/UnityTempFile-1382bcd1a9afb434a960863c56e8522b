@@ -1,0 +1,427 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-optimize
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Packages/TextMesh Pro/Plugins/Runtime DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll'
+-r:'Assets/Packages/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll'
+-r:'Assets/Packages/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll'
+-r:'Assets/Packages/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll'
+-r:'Assets/Packages/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll'
+-r:'Assets/Packages/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll'
+-r:'/Users/louisbrunon/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_1
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:UNITY_POST_PROCESSING_STACK_V1
+'Assets/Assets/Scripts/General/DestroySmoke.cs'
+'Assets/Assets/Scripts/General/Difficulties.cs'
+'Assets/Assets/Scripts/General/DualBehaviour.cs'
+'Assets/Assets/Scripts/Horse/Damage.cs'
+'Assets/Assets/Scripts/Horse/GetChildrens.cs'
+'Assets/Assets/Scripts/Horse/HorseHealth.cs'
+'Assets/Assets/Scripts/Horse/HorseManager.cs'
+'Assets/Assets/Scripts/Map/MapManager.cs'
+'Assets/Assets/Scripts/Map/MapMoove.cs'
+'Assets/Assets/Scripts/Map/TownScript.cs'
+'Assets/Assets/Scripts/Menu/QuitOnClick.cs'
+'Assets/Assets/Scripts/Menu/SceneChanger.cs'
+'Assets/Assets/Scripts/Menu/SelectOnInput.cs'
+'Assets/Assets/Scripts/Train/TrainManager.cs'
+'Assets/Assets/Scripts/Train/TrainMove.cs'
+'Assets/Assets/Scripts/Train/WagonHealth.cs'
+'Assets/Assets/Scripts/Train/WagonPoint.cs'
+'Assets/Assets/Scripts/Train/WagonShoot.cs'
+'Assets/Assets/Scripts/UI/ChooseDifficulty.cs'
+'Assets/Assets/Scripts/UI/HorseHealthBar.cs'
+'Assets/Assets/Scripts/UI/Score.cs'
+'Assets/Assets/Scripts/UI/Timer.cs'
+'Assets/Assets/Scripts/UI/WagonHealthBar.cs'
+'Assets/Assets/Scripts/UI/WinScore.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/AttackBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/DamagedBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/FallBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/Fly_NoRoot_Behavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/FlyBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/FlyDodgeBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/JumpBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/JumpNoRootBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/LayersBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/LoopBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/MessagesBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/NoCollidersBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/RandomBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/RecoverBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/RigidConstraintsB.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/RootMotionBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/SleepBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/SoundBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Behaviors/UnderWaterBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Actions/ActionPack.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Actions/Actions.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Actions/ActionZone.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/ActivateJump.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/Animal.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AnimalAIControl.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AnimalCallBacks.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AnimalExperimental.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AnimalMovement.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AnimalVariables.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/AttackTrigger.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/FollowTarget.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/Hash.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Animal/MakeDamage.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Camera/CameraWallStop.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Camera/FreeLockCameraManager.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Camera/FreeLookCameraState.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Camera/MFreeLookCamera.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Compatible SA/FirstPersonCharacter/Scripts/MHeadBob.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Compatible SA/FirstPersonCharacter/Scripts/MMouseLook.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Compatible SA/FirstPersonCharacter/Scripts/MRigidbodyFPSController.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Compatible SA/ThirdPersonCharacter/Scripts/MThirdPersonCharacter.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Compatible SA/ThirdPersonCharacter/Scripts/MThirdPersonInput.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Effects/EffectManager.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Effects/EffectModifier.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Events/MalbersEvents.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Interfaces/iMalbersInput.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Interfaces/IMDamagable.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/ActiveMeshes.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/AnimatorEventSounds.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/BlendShapes.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/BlinkEyes.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/ChangeTarget.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/ColliderProxy.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/Comment.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/DeltaTransform.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/EnterWater.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/GizmoVisualizer.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/LinkedBlendShapes.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/LockAxis.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/LookAt.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/LookAtTrigger.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/MalbersAnimationExtensions.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/MalbersInput.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/MalbersTools.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/MaterialChanger.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/MWayPoint.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/Pivots.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/PublicEnums.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/ScaleBonesFix.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/SlowMotion.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/SoundByMaterial.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/StepsManager.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/StepTrigger.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/TransformAnimation.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Utility/UseTransform.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Very Basic Inventory/IInventory.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Very Basic Inventory/MInventory.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/CurrentWeaponUI.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/IMWeapons.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/MArrow.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/MBow.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/MGun.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/MMelee.cs'
+'Assets/Packages/20_Western/Malbers Animations/Common/Scripts/Weapon/MWeapon.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Animator Behavior/AimIKBehaviour.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Animator Behavior/DismountBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Animator Behavior/MountBehavior.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Carriage/MountableCarriage.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Carriage/PullingHorses.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Carriage/WagonController.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/IKReins.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/IMount.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/Mountable.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/MountAI.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/MountTriggers.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Horse/UIMountScript.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/BowCombat.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/GunCombat.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/GunCombatFK.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/GunCombatIK.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/MeleeCombat.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Combat Abilities/RiderCombatAbility.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Rider.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/Rider3rdPerson.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/RiderCombat CallBacks.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/RiderCombat Logic.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/RiderCombat Variables.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/RiderCombat.cs'
+'Assets/Packages/20_Western/Malbers Animations/Horse AnimSet Pro/Scripts/Rider/RiderFPC.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineBlendListCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineBrain.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineClearShot.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineCollider.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineConfiner.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineDollyCart.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineExternalCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineFollowZoom.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineFreeLook.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineMixingCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachinePath.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachinePipeline.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineSmoother.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineSmoothPath.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineStateDrivenCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineTargetGroup.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Behaviours/CinemachineVirtualCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineBasicMultiChannelPerlin.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineComposer.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineFramingTransposer.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineGroupComposer.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineHardLockToTarget.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineHardLookAt.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineOrbitalTransposer.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachinePOV.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineSameAsFollowObject.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineTrackedDolly.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Components/CinemachineTransposer.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/AxisState.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CameraState.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineBlend.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineBlenderSettings.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineComponentBase.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineCore.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineDebugLogger.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineExtension.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachinePathBase.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachinePropertyAttribute.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/CinemachineVirtualCameraBase.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/GaussianFilter.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/ICinemachineCamera.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/ICinemachineComponent.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/LensSettings.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/NoiseSettings.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/Predictor.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/ReflectionHelpers.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/SplineHelpers.cs'
+'Assets/Packages/Cinemachine/Base/Runtime/Core/UnityVectorExtensions.cs'
+'Assets/Packages/Cinemachine/PostFX/CinemachinePostFX.cs'
+'Assets/Packages/Cinemachine/PostFX/CinemachinePostProcessing.cs'
+'Assets/Packages/Cinemachine/Timeline/CinemachineMixer.cs'
+'Assets/Packages/Cinemachine/Timeline/CinemachineShot.cs'
+'Assets/Packages/Cinemachine/Timeline/CinemachineTrack.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/IcoBumpin.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Misc/HueCube.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Procedural Mesh/ExtrudeRandomEdges.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Runtime Editing/RuntimeEdit.cs'
+'Assets/Packages/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs'
+'Assets/Packages/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs'
+'Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs'
+'Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs'
+'Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs'
+'Assets/PostProcessing/Runtime/Components/BloomComponent.cs'
+'Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs'
+'Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs'
+'Assets/PostProcessing/Runtime/Components/DitheringComponent.cs'
+'Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs'
+'Assets/PostProcessing/Runtime/Components/FogComponent.cs'
+'Assets/PostProcessing/Runtime/Components/FxaaComponent.cs'
+'Assets/PostProcessing/Runtime/Components/GrainComponent.cs'
+'Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs'
+'Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs'
+'Assets/PostProcessing/Runtime/Components/TaaComponent.cs'
+'Assets/PostProcessing/Runtime/Components/UserLutComponent.cs'
+'Assets/PostProcessing/Runtime/Components/VignetteComponent.cs'
+'Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs'
+'Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs'
+'Assets/PostProcessing/Runtime/Models/BloomModel.cs'
+'Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs'
+'Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs'
+'Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs'
+'Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs'
+'Assets/PostProcessing/Runtime/Models/DitheringModel.cs'
+'Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs'
+'Assets/PostProcessing/Runtime/Models/FogModel.cs'
+'Assets/PostProcessing/Runtime/Models/GrainModel.cs'
+'Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs'
+'Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs'
+'Assets/PostProcessing/Runtime/Models/UserLutModel.cs'
+'Assets/PostProcessing/Runtime/Models/VignetteModel.cs'
+'Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs'
+'Assets/PostProcessing/Runtime/PostProcessingComponent.cs'
+'Assets/PostProcessing/Runtime/PostProcessingContext.cs'
+'Assets/PostProcessing/Runtime/PostProcessingModel.cs'
+'Assets/PostProcessing/Runtime/PostProcessingProfile.cs'
+'Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs'
+'Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs'
+'Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs'
+'Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs'
+'Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity

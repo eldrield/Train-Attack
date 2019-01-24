@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ad5e9b19fe2e4e7493eb19133b969e5
+timeCreated: 1524746916
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_gunSmoke: {fileID: 157586, guid: 2574ca206a571a342a7fab69fdfb87aa, type: 2}
+  executionOrder: 2
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
